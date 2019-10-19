@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141BDFD22358EEC20025804F /* Bitvector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFD12358EEC20025804F /* Bitvector.swift */; };
+		141BDFD42358EED10025804F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFD32358EED00025804F /* main.swift */; };
+		141BDFD62358EF2B0025804F /* TaxonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFD52358EF2B0025804F /* TaxonData.swift */; };
+		141BDFDA2358FF8A0025804F /* TaxonDataContinuous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFD92358FF8A0025804F /* TaxonDataContinuous.swift */; };
+		141BDFDC2358FFAD0025804F /* TaxonDataDescrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFDB2358FFAD0025804F /* TaxonDataDescrete.swift */; };
+		141BDFDE235901F70025804F /* TaxonDataDNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFDD235901F70025804F /* TaxonDataDNA.swift */; };
+		141BDFE0235907E30025804F /* TaxonDataRNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFDF235907E30025804F /* TaxonDataRNA.swift */; };
+		141BDFE2235908030025804F /* TaxonDataProtein.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFE1235908030025804F /* TaxonDataProtein.swift */; };
+		141BDFE4235908250025804F /* TaxonDataStandard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFE3235908250025804F /* TaxonDataStandard.swift */; };
+		141BDFE6235A9E620025804F /* DataMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFE5235A9E620025804F /* DataMatrix.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		141BDFC12358EE7A0025804F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		141BDFC32358EE7A0025804F /* data-model-sveta */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "data-model-sveta"; sourceTree = BUILT_PRODUCTS_DIR; };
+		141BDFD12358EEC20025804F /* Bitvector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bitvector.swift; sourceTree = "<group>"; };
+		141BDFD32358EED00025804F /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		141BDFD52358EF2B0025804F /* TaxonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxonData.swift; sourceTree = "<group>"; };
+		141BDFD92358FF8A0025804F /* TaxonDataContinuous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonDataContinuous.swift; sourceTree = "<group>"; };
+		141BDFDB2358FFAD0025804F /* TaxonDataDescrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonDataDescrete.swift; sourceTree = "<group>"; };
+		141BDFDD235901F70025804F /* TaxonDataDNA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonDataDNA.swift; sourceTree = "<group>"; };
+		141BDFDF235907E30025804F /* TaxonDataRNA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonDataRNA.swift; sourceTree = "<group>"; };
+		141BDFE1235908030025804F /* TaxonDataProtein.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonDataProtein.swift; sourceTree = "<group>"; };
+		141BDFE3235908250025804F /* TaxonDataStandard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonDataStandard.swift; sourceTree = "<group>"; };
+		141BDFE5235A9E620025804F /* DataMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMatrix.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		141BDFC02358EE7A0025804F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141BDFBA2358EE7A0025804F = {
+			isa = PBXGroup;
+			children = (
+				141BDFC52358EE7A0025804F /* data-model-sveta */,
+				141BDFC42358EE7A0025804F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		141BDFC42358EE7A0025804F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				141BDFC32358EE7A0025804F /* data-model-sveta */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		141BDFC52358EE7A0025804F /* data-model-sveta */ = {
+			isa = PBXGroup;
+			children = (
+				141BDFD32358EED00025804F /* main.swift */,
+				141BDFE5235A9E620025804F /* DataMatrix.swift */,
+				141BDFD12358EEC20025804F /* Bitvector.swift */,
+				141BDFD52358EF2B0025804F /* TaxonData.swift */,
+				141BDFDB2358FFAD0025804F /* TaxonDataDescrete.swift */,
+				141BDFDD235901F70025804F /* TaxonDataDNA.swift */,
+				141BDFDF235907E30025804F /* TaxonDataRNA.swift */,
+				141BDFE1235908030025804F /* TaxonDataProtein.swift */,
+				141BDFE3235908250025804F /* TaxonDataStandard.swift */,
+				141BDFD92358FF8A0025804F /* TaxonDataContinuous.swift */,
+			);
+			path = "data-model-sveta";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		141BDFC22358EE7A0025804F /* data-model-sveta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141BDFCA2358EE7A0025804F /* Build configuration list for PBXNativeTarget "data-model-sveta" */;
+			buildPhases = (
+				141BDFBF2358EE7A0025804F /* Sources */,
+				141BDFC02358EE7A0025804F /* Frameworks */,
+				141BDFC12358EE7A0025804F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "data-model-sveta";
+			productName = "data-model-sveta";
+			productReference = 141BDFC32358EE7A0025804F /* data-model-sveta */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		141BDFBB2358EE7A0025804F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Svetlana Krasikova";
+				TargetAttributes = {
+					141BDFC22358EE7A0025804F = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 141BDFBE2358EE7A0025804F /* Build configuration list for PBXProject "data-model-sveta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 141BDFBA2358EE7A0025804F;
+			productRefGroup = 141BDFC42358EE7A0025804F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				141BDFC22358EE7A0025804F /* data-model-sveta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		141BDFBF2358EE7A0025804F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141BDFD22358EEC20025804F /* Bitvector.swift in Sources */,
+				141BDFDC2358FFAD0025804F /* TaxonDataDescrete.swift in Sources */,
+				141BDFDE235901F70025804F /* TaxonDataDNA.swift in Sources */,
+				141BDFD42358EED10025804F /* main.swift in Sources */,
+				141BDFE4235908250025804F /* TaxonDataStandard.swift in Sources */,
+				141BDFD62358EF2B0025804F /* TaxonData.swift in Sources */,
+				141BDFE6235A9E620025804F /* DataMatrix.swift in Sources */,
+				141BDFE0235907E30025804F /* TaxonDataRNA.swift in Sources */,
+				141BDFE2235908030025804F /* TaxonDataProtein.swift in Sources */,
+				141BDFDA2358FF8A0025804F /* TaxonDataContinuous.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		141BDFC82358EE7A0025804F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		141BDFC92358EE7A0025804F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		141BDFCB2358EE7A0025804F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3X4F8B2U7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		141BDFCC2358EE7A0025804F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3X4F8B2U7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		141BDFBE2358EE7A0025804F /* Build configuration list for PBXProject "data-model-sveta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141BDFC82358EE7A0025804F /* Debug */,
+				141BDFC92358EE7A0025804F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141BDFCA2358EE7A0025804F /* Build configuration list for PBXNativeTarget "data-model-sveta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141BDFCB2358EE7A0025804F /* Debug */,
+				141BDFCC2358EE7A0025804F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 141BDFBB2358EE7A0025804F /* Project object */;
+}
