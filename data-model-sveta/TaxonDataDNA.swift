@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TaxonDataDNA: TaxonDataDescrete {
+class TaxonDataDNA: TaxonDataDiscrete {
     
        // MARK: - Initializers
        

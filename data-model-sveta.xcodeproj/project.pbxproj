@@ -11,7 +11,7 @@
 		141BDFD42358EED10025804F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFD32358EED00025804F /* main.swift */; };
 		141BDFD62358EF2B0025804F /* TaxonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFD52358EF2B0025804F /* TaxonData.swift */; };
 		141BDFDA2358FF8A0025804F /* TaxonDataContinuous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFD92358FF8A0025804F /* TaxonDataContinuous.swift */; };
-		141BDFDC2358FFAD0025804F /* TaxonDataDescrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFDB2358FFAD0025804F /* TaxonDataDescrete.swift */; };
+		141BDFDC2358FFAD0025804F /* TaxonDataDiscrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFDB2358FFAD0025804F /* TaxonDataDiscrete.swift */; };
 		141BDFDE235901F70025804F /* TaxonDataDNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFDD235901F70025804F /* TaxonDataDNA.swift */; };
 		141BDFE0235907E30025804F /* TaxonDataRNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFDF235907E30025804F /* TaxonDataRNA.swift */; };
 		141BDFE2235908030025804F /* TaxonDataProtein.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BDFE1235908030025804F /* TaxonDataProtein.swift */; };
@@ -37,7 +37,7 @@
 		141BDFD32358EED00025804F /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		141BDFD52358EF2B0025804F /* TaxonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxonData.swift; sourceTree = "<group>"; };
 		141BDFD92358FF8A0025804F /* TaxonDataContinuous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonDataContinuous.swift; sourceTree = "<group>"; };
-		141BDFDB2358FFAD0025804F /* TaxonDataDescrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonDataDescrete.swift; sourceTree = "<group>"; };
+		141BDFDB2358FFAD0025804F /* TaxonDataDiscrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonDataDiscrete.swift; sourceTree = "<group>"; };
 		141BDFDD235901F70025804F /* TaxonDataDNA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonDataDNA.swift; sourceTree = "<group>"; };
 		141BDFDF235907E30025804F /* TaxonDataRNA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonDataRNA.swift; sourceTree = "<group>"; };
 		141BDFE1235908030025804F /* TaxonDataProtein.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonDataProtein.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 				141BDFE5235A9E620025804F /* DataMatrix.swift */,
 				141BDFD12358EEC20025804F /* Bitvector.swift */,
 				141BDFD52358EF2B0025804F /* TaxonData.swift */,
-				141BDFDB2358FFAD0025804F /* TaxonDataDescrete.swift */,
+				141BDFDB2358FFAD0025804F /* TaxonDataDiscrete.swift */,
 				141BDFDD235901F70025804F /* TaxonDataDNA.swift */,
 				141BDFDF235907E30025804F /* TaxonDataRNA.swift */,
 				141BDFE1235908030025804F /* TaxonDataProtein.swift */,
@@ -149,7 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				141BDFD22358EEC20025804F /* Bitvector.swift in Sources */,
-				141BDFDC2358FFAD0025804F /* TaxonDataDescrete.swift in Sources */,
+				141BDFDC2358FFAD0025804F /* TaxonDataDiscrete.swift in Sources */,
 				141BDFDE235901F70025804F /* TaxonDataDNA.swift in Sources */,
 				141BDFD42358EED10025804F /* main.swift in Sources */,
 				141BDFE4235908250025804F /* TaxonDataStandard.swift in Sources */,

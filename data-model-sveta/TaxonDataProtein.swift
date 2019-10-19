@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TaxonDataProtein: TaxonDataDescrete {
+class TaxonDataProtein: TaxonDataDiscrete {
     // MARK: Initializers
     
     /// Default initializer.

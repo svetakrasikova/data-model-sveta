@@ -8,12 +8,12 @@
 
 import Foundation
 
-class TaxonDataDescrete: TaxonData {
+class TaxonDataDiscrete: TaxonData {
     
     // MARK: - Overloaded operators
     
     /// Override the `+=` operator allowing a character data string to be appended to the current sequence.
-    static func +=(lhs: TaxonDataDescrete, newVal: String) throws {
+    static func +=(lhs: TaxonDataDiscrete, newVal: String) throws {
         
         // process the string, removing spaces and making certain the characters are uppercase
         var potentialCharacterStateString : String = newVal.uppercased()
@@ -34,7 +34,7 @@ class TaxonDataDescrete: TaxonData {
     }
     
     /// Override the `+=` operator allowing concatenation of two taxon data.
-    static func +=(lhs: TaxonDataDescrete, rhs: TaxonDataDescrete) throws {
+    static func +=(lhs: TaxonDataDiscrete, rhs: TaxonDataDiscrete) throws {
         
         // check that the data are of the same type
         guard lhs.dataType == rhs.dataType else {
@@ -52,7 +52,7 @@ class TaxonDataDescrete: TaxonData {
         
     }
     
-    static func + (lhs: TaxonDataDescrete, rhs: TaxonDataDescrete) throws -> Any?{
+    static func + (lhs: TaxonDataDiscrete, rhs: TaxonDataDiscrete) throws -> Any?{
         
         // check that the data are of the same type
         guard lhs.dataType == rhs.dataType else {
@@ -60,7 +60,7 @@ class TaxonDataDescrete: TaxonData {
             throw TaxonDataError.concatenationError
         }
         
-        let result = lhs.copy() as! TaxonDataDescrete
+        let result = lhs.copy() as! TaxonDataDiscrete
         (result as Bitvector) += (rhs as Bitvector)
         return result
         

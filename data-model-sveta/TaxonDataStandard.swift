@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TaxonDataStandard: TaxonDataDescrete {
+class TaxonDataStandard: TaxonDataDiscrete {
     
     internal var possibleCharacterStates : String
     internal var missingCharacter : String
@@ -259,7 +259,7 @@ class TaxonDataStandard: TaxonDataDescrete {
             }
         }
         
-        try (lhs as TaxonDataDescrete) += (rhs as TaxonDataDescrete)
+        try (lhs as TaxonDataDiscrete) += (rhs as TaxonDataDiscrete)
         
         
     }

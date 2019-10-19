@@ -195,7 +195,7 @@ class DataMatrix : CustomStringConvertible, Codable {
                 }
                 do {
                     if tdL.dataType != .Continuous {
-                        try (tdL as! TaxonDataDescrete) += missingStr
+                        try (tdL as! TaxonDataDiscrete) += missingStr
                     }
                 }
                 catch {
@@ -206,7 +206,7 @@ class DataMatrix : CustomStringConvertible, Codable {
             else {
                 do {
                     if tdL.dataType != .Continuous {
-                        try (tdL as! TaxonDataDescrete) += (tdR as! TaxonDataDescrete)
+                        try (tdL as! TaxonDataDiscrete) += (tdR as! TaxonDataDiscrete)
                     }
                     else {
                         try (tdL as! TaxonDataContinuous) += (tdR as! TaxonDataContinuous)
@@ -233,7 +233,7 @@ class DataMatrix : CustomStringConvertible, Codable {
                     case DataType.DNA:
                         do {
                             let newTd = try TaxonDataDNA(taxonName: nameR, nucleotideString: missingStr)
-                            try newTd += (tdR as! TaxonDataDescrete)
+                            try newTd += (tdR as! TaxonDataDiscrete)
                             try lhs.addTaxonData(taxonData: newTd)
                         }
                         catch {
@@ -244,7 +244,7 @@ class DataMatrix : CustomStringConvertible, Codable {
                     case DataType.RNA:
                         do {
                             let newTd = try TaxonDataRNA(taxonName: nameR, nucleotideString: missingStr)
-                            try newTd += (tdR as! TaxonDataDescrete)
+                            try newTd += (tdR as! TaxonDataDiscrete)
                             try lhs.addTaxonData(taxonData: newTd)
                         }
                         catch {
@@ -255,7 +255,7 @@ class DataMatrix : CustomStringConvertible, Codable {
                     case DataType.Protein:
                         do {
                             let newTd = try TaxonDataProtein(taxonName: nameR, aminoAcidString: missingStr)
-                            try newTd += (tdR as! TaxonDataDescrete)
+                            try newTd += (tdR as! TaxonDataDiscrete)
                             try lhs.addTaxonData(taxonData: newTd)
                         }
                         catch {
@@ -267,7 +267,7 @@ class DataMatrix : CustomStringConvertible, Codable {
                         do {
                             let castTdR = tdR as! TaxonDataStandard
                             let newTd = try TaxonDataStandard(taxonName: nameR, charcterDataString: missingStr, possibleStates: castTdR.possibleCharacterStates, missingCharacter: castTdR.missingCharacter)
-                            try newTd += (tdR as! TaxonDataDescrete)
+                            try newTd += (tdR as! TaxonDataDiscrete)
                             try lhs.addTaxonData(taxonData: newTd)
                         }
                         catch {
